@@ -16,7 +16,7 @@ public class SensordeTemperatura implements Publisher {
   }
 
   public void diminuirTemperatura() {
-    temperatura++;
+    temperatura--;
     notifySubscribers();
   }
 
