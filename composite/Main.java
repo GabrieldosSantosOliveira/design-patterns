@@ -10,7 +10,7 @@ public class Main {
         .build();
     Optional<Exception> a = validationComposite.validate("bom dia");
     Optional<Exception> b = validationComposite.validate("qualquer_coisa_acordou_do_sono");
-    Optional<Exception> c = validationComposite.validate("renata_malvada@gmail.com");
+    Optional<Exception> c = validationComposite.validate("sofia_correia@gmail.com");
     System.out.println(a);
     System.out.println(b);
     System.out.println(c);
